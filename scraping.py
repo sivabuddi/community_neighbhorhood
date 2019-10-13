@@ -17,7 +17,7 @@ args_list = ["keywords_from_file", "prefix_keywords", "suffix_keywords",
 #page = google.download_page('https://www.google.com/search?q=abandoned+house&rlz=1C1CHBF_enUS811US811&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjvmfyO4K3kAhUIv54KHVM_BuYQ_AUIESgB&biw=1536&bih=722')
 
 #Kansas city rent link
-page = google.download_page('https://www.google.co.in/search?q=new+houses+kansas+city+hd&sxsrf=ACYBGNQs-gvJL6TLrw1uCKfTKHzdZhU05g:1568316035304&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiF0LfBgMzkAhWFvZ4KHbQoDJYQ_AUIEigB&biw=1536&bih=722#imgrc=_')
+page = google.download_page('https://www.google.com/search?biw=1853&bih=981&tbm=isch&sxsrf=ACYBGNTNIs0O35wgERGk7ZyDoyy-QsGB2Q%3A1570934662714&sa=1&ei=ho-iXeKKK4KosgXY2q2oDw&q=rainbow+houses+lbgtq+usa+outside+houses&oq=rainbow+houses+lbgtq+usa+outside+houses&gs_l=img.3...17887.19369..20227...0.0..0.101.580.4j2......0....1..gws-wiz-img.GfglOFNwWQk&ved=0ahUKEwji5aTUm5jlAhUClKwKHVhtC_UQ4dUDCAc&uact=5')
 
 data = google._get_next_item(page)
 argumnets = {
